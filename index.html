@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iGuide.com</title>
@@ -54,6 +54,14 @@
             text-decoration: underline;
             color: #505050;
         }
+
+        @media screen and (max-width:450px) {
+
+
+            .hide {
+                display:none;
+            }
+        }
     </style>
 
 
@@ -66,11 +74,11 @@
         <nav>
             <div class="flex justify-between items-center">
 
-                <div class=" font-bold text-5xl ml-2 flex-1 flex"><span class=" text-[#005009]">i</span>
+                <div class=" font-bold text-3xl md:text-5xl ml-2 flex-1 flex"><span class=" text-[#005009]">i</span>
                     <p>Guide</p>
                 </div>
 
-                <div class="font-bold ">
+                <div class="font-bold hide ">
 
                     <a class="a-1 m-2" href="index2.html">Home</a>
                     <a class="a-1 m-2" href="">News</a>
@@ -102,8 +110,6 @@
                         </button>
                     </label>
                 </form>
-
-
 
             </div>
 
