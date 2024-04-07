@@ -49,6 +49,14 @@
             text-decoration: underline;
             color: #505050;
         }
+
+        @media screen and (max-width:450px) {
+
+
+            .hide {
+                display: none;
+            }
+        }
     </style>
 
 </head>
@@ -58,7 +66,7 @@
     <nav class="mb-16">
         <div class="flex justify-between items-center">
 
-            <div class=" font-bold text-5xl ml-2 flex"><span class=" text-[#016b0d]">i</span>
+            <div class=" font-bold text-3xl md:text-5xl ml-2 flex"><span class=" text-[#016b0d]">i</span>
                 <p>Guide</p>
             </div>
 
@@ -88,10 +96,11 @@
 
             <div class="font-bold mr-2 ">
 
-                <a class="m-2 a-1" href="index.html">Home</a>
-                <a class="m-2 a-1" href="">News</a>
-                <a class="m-2 a-1" href="">Contact</a>
-
+                <span class="hide">
+                    <a class="m-2 a-1" href="index.html">Home</a>
+                    <a class="m-2 a-1" href="">News</a>
+                    <a class="m-2 a-1" href="">Contact</a>
+                </span>
                 <i class="a-1 m-2 fa-solid fa-user"></i>
 
                 <i class="a-1 m-2 fa-solid fa-bars"></i>
@@ -111,48 +120,54 @@
         <div class="flex justify-center ">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:gap-36 md:gap-14">
 
-                <a class="card p-4 " href="">
+                <a class="card mb-10 md:mb-0 p-4 " href="">
                     <img class="w-96 md:w-80 lg:w-96 h-56" src="images/dhaka (2).jpg" alt="">
                     <h2 class="font-bold text-5xl mb-4">Dhaka</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, maxime quos delectus quia
                         iste reprehenderit!</p>
                 </a>
 
-                <a class="card p-4 " href="">
+                <a class="card p-4 mb-10 md:mb-0" href="">
                     <img class="w-96 md:w-80 lg:w-96 h-56" src="images/ranpur.jpg" alt="">
                     <h2 class="font-bold text-5xl mb-4">Rangpur</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime optio quas sed consequuntur
                         ratione iure!</p>
                 </a>
-                <a class="card p-4 " href="">
+                <a class="card p-4 mb-10 md:mb-0" href="">
                     <img class="w-96 md:w-80 lg:w-96 h-56" src="images/barisal.jpg" alt="">
                     <h2 class="font-bold text-5xl mb-4">Barishal</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam repellendus dicta eaque optio deleniti eligendi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam repellendus dicta eaque optio
+                        deleniti eligendi?</p>
                 </a>
-                <a class="card p-4 " href="">
+                <a class="card p-4 mb-10 md:mb-0" href="">
                     <img class="w-96 md:w-80 lg:w-96 h-56" src="images/Chittagong.jpg" alt="">
                     <h2 class="font-bold text-5xl mb-4">Chittagong</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, recusandae nulla saepe numquam soluta perspiciatis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, recusandae nulla saepe
+                        numquam soluta perspiciatis.</p>
                 </a>
-                <a class="card p-4 " href="">
+                <a class="card p-4 mb-10 md:mb-0" href="">
                     <img class="w-96 md:w-80 lg:w-96 h-56" src="images/Sylhet.jpg" alt="">
                     <h2 class="font-bold text-5xl mb-4">Sylhet</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, enim asperiores voluptatibus recusandae ad non.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, enim asperiores voluptatibus
+                        recusandae ad non.</p>
                 </a>
-                <a class="card p-4 " href="">
+                <a class="card p-4 mb-10 md:mb-0" href="">
                     <img class="w-96 md:w-80 lg:w-96 h-56" src="images/Khulna.jpg" alt="">
                     <h2 class="font-bold text-5xl mb-4">khulna</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus officiis at, qui itaque illo eius.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus officiis at, qui itaque illo
+                        eius.</p>
                 </a>
-                <a class="card p-4 " href="">
+                <a class="card p-4 mb-10 md:mb-0" href="">
                     <img class="w-96 md:w-80 lg:w-96 h-56" src="images/Rajshahi.jpg" alt="">
                     <h2 class="font-bold text-5xl mb-4">Rajshahi</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit minima hic aspernatur adipisci commodi exercitationem.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit minima hic aspernatur
+                        adipisci commodi exercitationem.</p>
                 </a>
-                <a class="card p-4 " href="">
+                <a class="card p-4 mb-10 md:mb-0" href="">
                     <img class="w-96 md:w-80 lg:w-96 h-56" src="images/Mymensingh.jpg" alt="">
                     <h2 class="font-bold text-5xl mb-4">Mymensingh</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore commodi magni consectetur voluptate, eius nobis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore commodi magni consectetur
+                        voluptate, eius nobis.</p>
                 </a>
 
             </div>
