@@ -11,15 +11,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
     <script src="https://kit.fontawesome.com/7c8e995abe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="bangladesh/value.css">
+    <link rel="stylesheet" href="bangladesh/iGuide.css">
 
     <style>
         * {
             margin: 0px;
         }
 
+        nav {
+            background-color: rgba(255, 255, 255, 0.192);
+        }
+
         .my-border {
-            height: 80px;
-            border-left: 7px solid #016b0d;
+            height: 67px;
+            border-left: 7px solid #37FF8B;
             border-radius: 2px;
         }
 
@@ -66,8 +71,12 @@
     <nav class="mb-16">
         <div class="flex justify-between items-center">
 
-            <div class=" font-bold text-3xl md:text-5xl ml-2 flex"><span class=" text-[#016b0d]">i</span>
-                <p>Guide</p>
+            <div class=" ml-3 my-3 flex"><button class="button" data-text="Awesome">
+                    <span class="actual-text flex">&nbsp;<span class="text-[#005009]">i</span>
+                        <div class="text-black">Guide</div>&nbsp;
+                    </span>
+                    <span aria-hidden="true" class="hover-text">&nbsp;iGuide&nbsp;</span>
+                </button>
             </div>
 
             <form class="form">
@@ -94,16 +103,16 @@
                 </label>
             </form>
 
-            <div class="font-bold mr-2 ">
+            <div class="font-bold mr-2 flex ">
 
                 <span class="hide">
-                    <a class="m-2 a-1" href="index.html">Home</a>
-                    <a class="m-2 a-1" href="">News</a>
-                    <a class="m-2 a-1" href="">Contact</a>
+                    <a class="m-3 a-1" href="index.html">Home</a>
+                    <a class="m-3 a-1" href="">News</a>
+                    <a class="m-3 a-1" href="">Contact</a>
                 </span>
-                <i class="a-1 m-2 fa-solid fa-user"></i>
+                <i class="a-1 m-3 fa-solid fa-user"></i>
 
-                <i class="a-1 m-2 fa-solid fa-bars"></i>
+                <i class="a-1 m-3 fa-solid fa-bars"></i>
 
             </div>
 
@@ -113,12 +122,12 @@
 
     <section>
 
-        <div class="my-border ml-1 mb-20 flex items-center">
+        <div class="my-border ml-4 mb-20 flex items-center">
             <h1 class=" ml-4 font-bold text-4xl">select your division</h1>
         </div>
 
         <div class="flex justify-center ">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:gap-36 md:gap-14">
+            <div class="grid grid-cols-1 md:grid-cols-2  lg:gap-36 md:gap-14">
 
                 <a class="card mb-10 md:mb-0 p-4 " href="">
                     <img class="w-96 md:w-80 lg:w-96 h-56" src="images/dhaka (2).jpg" alt="">

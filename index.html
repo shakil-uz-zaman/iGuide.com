@@ -10,11 +10,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="bangladesh/search-bar.css">
     <script src="https://kit.fontawesome.com/7c8e995abe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bangladesh/iGuide.css">
 
     <!-- all links-->
 
     <style>
         * {
+
             margin: 0px;
         }
 
@@ -36,6 +38,7 @@
         }
 
         nav {
+            background-color: rgba(255, 255, 255, 0.192);
             position: fixed;
             top: 0;
             left: 0;
@@ -47,12 +50,12 @@
         }
 
         .my-border {
-            height: 90px;
-            border-left: 7px solid #005009;
+            height: 74px;
+            border-left: 7px solid #37FF8B;
         }
 
         .a-1:hover {
-            text-decoration: underline;
+
             color: #505050;
         }
 
@@ -72,27 +75,34 @@
 
     <section class="mb-10 ">
 
-        <nav>
+        <nav class="">
             <div class="flex justify-between items-center">
 
-                <div class=" font-bold text-3xl md:text-5xl ml-2 flex-1 flex"><span class=" text-[#005009]">i</span>
-                    <p>Guide</p>
+                <div class=" ml-3 flex-1 flex">
+
+                    <button class="button" data-text="Awesome">
+                        <span class="actual-text flex">&nbsp;<span class="text-[#005009]">i</span>
+                            <div class="text-black">Guide</div>&nbsp;
+                        </span>
+                        <span aria-hidden="true" class="hover-text">&nbsp;iGuide&nbsp;</span>
+                    </button>
+
                 </div>
 
                 <div class="font-bold hide ">
 
                     <span>
 
-                        <a class="a-1 m-2" href="index2.html">Home</a>
-                        <a class="a-1 m-2" href="">News</a>
-                        <a class="a-1 m-2" href="">Contact</a>
+                        <a class="a-1 m-3" href="index2.html">Home</a>
+                        <a class="a-1 m-3" href="">News</a>
+                        <a class="a-1 m-3" href="">Contact</a>
                     </span>
 
-                    
+
 
                 </div>
 
-                <form class="form">
+                <form class="form m-3">
                     <label for="search">
                         <input class="input" type="text" required="" placeholder="Search " id="search">
                         <div class="fancy-bg"></div>
@@ -129,7 +139,7 @@
 
     </section>
 
-    <section class="my-border ml-1 mb-10 flex items-center">
+    <section class="my-border ml-4 mb-10 flex items-center">
         <h3 class=" ml-5 font-bold text-3xl md:text-4xl">Bangladesh is much more beautifull then you think!</h3>
 
     </section>
@@ -159,7 +169,7 @@
     </div>
 
 
-    
+
 </body>
 
 </html>
