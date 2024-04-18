@@ -29,6 +29,11 @@
             margin: 0px;
         }
 
+        .a-1:hover {
+
+            color: gray;
+        }
+
         nav {
             background-color: rgba(255, 255, 255, 0.192);
 
@@ -42,10 +47,45 @@
             height: 100vh;
         }
 
-        .cavet{
+        .cavet {
             font-family: "Caveat", cursive;
             font-size: x-large;
             font-weight: 900;
+        }
+
+        .mybg {
+            height: 140px;
+            width: 795px;
+            background-color: rgba(0, 0, 0, 0.71);
+
+
+        }
+
+        .hisbg {
+            width: 750px;
+            height: 100px;
+        }
+
+        .hair{
+            background-color: rgba(143, 219, 0, 1);
+        }
+
+        .happy {
+            height: 32px;
+            width: 130px;
+            
+        }
+
+        .happy:hover{
+            background-color: rgba(92, 140, 1, 1);
+        }
+
+        @media screen and (max-width:1023px) {
+
+
+            .hide {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -114,10 +154,99 @@
     <section class="bal">
 
         <div class="text-center ">
-            <h2 class="pt-20 text-7xl font-black cavet">Your trip starts here</h2>
+            <h2 class="pt-20 text-7xl font-black cavet mb-5">Your trip starts here</h2>
         </div>
 
-        
+        <div class="mybg flex justify-center items-center mx-auto rounded-full">
+
+            <div class="hair hisbg items-center rounded-full grid grid-cols-4">
+
+
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center happy rounded-full" href="">
+                        <div>
+                            <i class="fa-solid fa-hotel mx-1"></i>
+                        </div>
+                        <div>
+                            <p class="text-xl">Hotels</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center happy rounded-full" href="">
+                        <div>
+                            <i class="fa-solid fa-utensils mx-1"></i>
+                        </div>
+                        <div>
+                            <p class="text-xl">Restaurent</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center happy rounded-full" href="">
+                        <div>
+                            <i class="fa-solid fa-plane mx-1"></i>
+                        </div>
+                        <div>
+                            <p class="text-xl">Flight</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center happy rounded-full" href="">
+                        <div>
+                            <i class="fa-solid fa-newspaper mx-1"></i>
+                        </div>
+                        <div>
+                            <p class="text-xl">City News</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center happy rounded-full" href="">
+                        <div>
+                            <i class="fa-solid fa-location-dot mx-1"></i>
+                        </div>
+                        <div>
+                            <p class="text-xl">Popular</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center happy rounded-full" href="">
+                        <div>
+                            <i class="fa-solid fa-car mx-1"></i>
+                        </div>
+                        <div>
+                            <p class="text-xl">Car Rental</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center happy rounded-full" href="">
+                        <div>
+                            <i class="fa-solid fa-train mx-1"></i>
+                        </div>
+                        <div>
+                            <p class="text-xl">Trains</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center happy rounded-full" href="">
+                        <div>
+                            <i class="fa-solid fa-tower-broadcast mx-1"></i>
+                        </div>
+                        <div>
+                            <p class="text-xl">Emergency</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
 
 
 
